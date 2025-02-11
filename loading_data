@@ -1,0 +1,28 @@
+# LOADING DATA
+
+
+#1) Uploading .csv file
+
+#Import Libraries and Upload the File
+import pandas as pd
+import matplotlib.pyplot as plt
+from google.colab import files
+
+# Upload the file
+print("Please upload your CSV file:")
+uploaded = files.upload()
+
+# Replace '.csv' with the name of your uploaded file
+file_name = list(uploaded.keys())[0]  # Get the uploaded file name dynamically
+data = pd.read_csv(file_name)
+
+
+#2) Preprocessing the Data
+
+# Convert transaction_month to datetime format
+data['transaction_month'] = pd.to_datetime(data['transaction_month'], format='%Y-%m')
+
+# Aggregate Data for District and Tehsil Trends
+# Group data by month, district, and tehsil
+# Column names: dist_name,	tehsil_name,	transaction_month and,	total_quantity in .csv file
+grouped_data = data.groupby(['transaction_month', 'dist_name', 'tehsil_name'])['total_quantity'].sum().reset_index()
