@@ -24,5 +24,5 @@ data['transaction_month'] = pd.to_datetime(data['transaction_month'], format='%Y
 
 # Aggregate Data for District and Tehsil Trends
 # Group data by month, district, and tehsil
-# Column names: dist_name,	tehsil_name,	transaction_month and,	total_quantity in .csv file
+# Column names: dist_name,	tehsil_name,	transaction_month and,	total_quantity in the .csv file
 grouped_data = data.groupby(['transaction_month', 'dist_name', 'tehsil_name'])['total_quantity'].sum().reset_index()
