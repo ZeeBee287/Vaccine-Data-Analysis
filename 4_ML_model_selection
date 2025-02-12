@@ -1,6 +1,6 @@
 ML Model Selection
 
-Dataset depends on the type of vaccine, the transaction period of the data, any missing values etc.
+Model Selection depends on the type of vaccine, the transaction period of the data, any missing values in the dataset etc.
 My dataset is small and inconsistent, hence it will have high RMSE values so I will use MAPE to deduce how well my ML model works.
 
 MAPE values:
