@@ -9,7 +9,7 @@ MAPE values:
 <10%: Very Good Forecasting Model (Target)
 
 Based on my dataset, I'll be using:
-1) SARIMAX Model
+1) SARIMA Model
 2) Prophet Model
 3) XGBoost Model
 
