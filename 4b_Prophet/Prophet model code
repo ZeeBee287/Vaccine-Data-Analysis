@@ -2,7 +2,6 @@
 
 
 
-
 !pip install prophet
 
 from prophet import Prophet
