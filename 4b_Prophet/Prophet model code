@@ -1,4 +1,7 @@
-#THE PROPHET MODET
+#2. THE PROPHET MODEL (The Good Forecasting Model)
+
+
+
 
 !pip install prophet
 
@@ -83,3 +86,7 @@ ax.set_ylabel("Total Quantity", fontsize=12)
 ax.legend()
 ax.grid(True, linestyle='--', alpha=0.6)
 plt.show()
+
+
+# Prediction forecast can be adjusted
+# Since dataset was too small, future predictions by Prophet model only predicted upto 6 months
