@@ -62,7 +62,7 @@ ax.legend()
 ax.grid(True, linestyle='--', alpha=0.6)
 plt.show()
 
-# Extend future predictions by 12 months AFTER the test period
+# Extend future predictions by 6 months AFTER the test period
 future_extended = prophet_model.make_future_dataframe(periods=len(test_df) + 6, freq='MS')
 forecast_extended = prophet_model.predict(future_extended)
 
