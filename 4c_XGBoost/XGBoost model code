@@ -2,6 +2,9 @@
 
 
 
+#!pip install --upgrade scikit-learn xgboost
+!pip install scikit-learn==1.2.2 xgboost==1.7.6
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
