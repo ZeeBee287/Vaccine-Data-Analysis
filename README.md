@@ -86,8 +86,8 @@ XGBoost is a gradient boosting machine that excels at learning complex, non-line
 ## 📊 Results
 
 * **SARIMA** was reasonable for modeling seasonal behavior but showed high error due to linear assumptions.
-* * **Prophet** handled trend changes and multiplicative seasonality better.
-* * **XGBoost** achieved the lowest MAPE (4.91%) and best overall performance, significantly outperforming both with rich features and low forecast error.
+* **Prophet** handled trend changes and multiplicative seasonality better.
+* **XGBoost** achieved the lowest MAPE (4.91%) and best overall performance, significantly outperforming both with rich features and low forecast error.
 * Forecasts highlighted peak usage periods and anticipated supply-demand gaps in 2025.
 
 
