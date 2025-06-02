@@ -26,7 +26,7 @@
 
 ## 🔮 Models Used
 
-### ⚙️ 1. SARIMA (Seasonal ARIMA) Model – The Reasonable Forecasting Model**
+### ⚙️ 1. **SARIMA (Seasonal ARIMA) Model – The Reasonable Forecasting Model**
 
 SARIMA (Seasonal AutoRegressive Integrated Moving Average) was selected due to observed **quarterly seasonality** in vaccine distribution.
 
@@ -43,7 +43,7 @@ SARIMA (Seasonal AutoRegressive Integrated Moving Average) was selected due to o
 * **Strength**: Strong at capturing repeating seasonal cycles.
 * **Limitation**: Assumes linear and stationary relationships; less accurate on non-linear patterns.
 
-### 🧙 2. Prophet Model – The Good Forecasting Model**
+### 🧙 2. **Prophet Model – The Good Forecasting Model**
 
 Prophet is built for time series forecasting with strong seasonal and trend components.
 
@@ -60,7 +60,7 @@ Prophet is built for time series forecasting with strong seasonal and trend comp
 * **Strength**: Highly interpretable and easy to configure.
 * **Limitation**: Performance drops when data is limited or lacks full seasonal cycles.
 
-### 🤖 3. XGBoost Model – The Best Forecasting Model**
+### 🤖 3. **XGBoost Model – The Best Forecasting Model**
 
 XGBoost is a gradient boosting machine that excels at learning complex, non-linear relationships.
 
